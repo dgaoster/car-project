@@ -3,6 +3,7 @@ body {
 	padding: 50px;
 	color: #1167a0;
 	background-image: url(images/tile.jpg);
+	font-family: Georgia, serif;
 }
 
 a {
@@ -15,6 +16,7 @@ a:hover {
 
 h1 {
 	text-transform: uppercase;
+	text-align: center;
 }
 
 h2 {
@@ -24,6 +26,10 @@ h2 {
 /*#camry-header {
 	text-transform: lowercase;
 }*/
+
+.main-page {
+	text-align: center;
+}
 
 #go-back {
 	border-top: 1px solid #b9afaf;
