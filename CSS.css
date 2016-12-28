@@ -1,38 +1,44 @@
 body {
-
-font-family: Georgia, "Times New Roman", Times, serif;
-
-font-size: 14px;
-
-color: #333333;
-
-background-color: #F9F9F9;
-
+	background-color: #dfdfd6;
+	padding: 50px;
+	color: #1167a0;
+	background-image: url(images/tile.jpg);
 }
 
-p {
-
-width: 80%;
-
+a {
+	color: #612c2c;
 }
 
-li { 
-
-list-style-type: disc; 
-line-height: 150%; 
-
+a:hover {
+	color: #ff5733;
 }
 
 h1 {
+	text-transform: uppercase;
+}
 
-font-family: Georgia, "Times New Roman", Times, serif;
+h2 {
+	color: #000000;
+}
 
-font-size: 18px;
+/*#camry-header {
+	text-transform: lowercase;
+}*/
 
-font-weight: bold;
+#go-back {
+	border-top: 1px solid #b9afaf;
+	margin-top: 40px;
+	padding-top: 20px;
+}
 
-color: #000000;
+.lexus-spec {
+	color: #bd4da6;
+}
 
-margin-left: 400px;
+.camry-spec {
+	color: #bd804d;
+}
 
+.sienna-spec {
+	color: #20ba53;
 }
