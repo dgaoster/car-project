@@ -2,8 +2,16 @@ body {
 	background-color: #dfdfd6;
 	padding: 50px;
 	color: #1167a0;
-	background-image: url(images/tile.jpg);
+	background-image: url(images/solid.jpg);
+}
+
+body{
 	font-family: Georgia, serif;
+	font-size: 17px;
+	line-height: 27px;
+	width: 700px;
+	margin: 0px auto;
+
 }
 
 a {
@@ -17,22 +25,42 @@ a:hover {
 h1 {
 	text-transform: uppercase;
 	text-align: center;
+	border-bottom: 4px double #1167a0;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 h2 {
 	color: #000000;
+	border-bottom: 1px solid #1167a0;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+ul li{
+	margin-bottom: 25px;
+}
+
+
+ol li{
+	margin-bottom: 10px;
 }
 
 /*#camry-header {
 	text-transform: lowercase;
 }*/
 
-.main-page {
+/*#main-page {
 	text-align: center;
-}
+}*/
 
 #go-back {
-	border-top: 1px solid #b9afaf;
+	border-top: 4px dotted #b9afaf;
 	margin-top: 40px;
 	padding-top: 20px;
 }
