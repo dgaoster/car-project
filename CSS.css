@@ -1,18 +1,12 @@
 body {
-	background-color: #dfdfd6;
-	padding: 5rem;
+/*	background-color: #dfdfd6;*/
+/*	padding: 5rem;*/
 	color: #1167a0;
 	background-image: url(images/solid.jpg);
-}
-
-/*NEW*/
-body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.125rem;
 	line-height: 1.618;
-	max-width: 45rem;
-	margin: 0 auto;
-
+	margin: 1px;
 }
 
 img {
@@ -83,6 +77,38 @@ footer {
 	border-top: 4px dotted #b9afaf;
 	margin-top: 40px;
 	padding-top: 20px;
+}
+
+.wrapper {
+	width: 100%
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 5rem;
+	box-sizing: border_box;
+	border-style: solid;
+	border-width: 0.1875rem;
+}
+
+.col_01 {
+	width: 33.3333%;
+	float: left;
+}
+
+.col_02 {
+	width: 66.6666%;
+	float: right;
+	padding-left: 4rem;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
 }
 
 .lexus-spec {
