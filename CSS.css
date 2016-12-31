@@ -1,12 +1,12 @@
 body {
-/*	background-color: #dfdfd6;*/
+	background-color: #75a1a0;
 /*	padding: 5rem;*/
-	color: #1167a0;
-	background-image: url(images/solid.jpg);
+	color: #3a3f3f;
+	background-image: url("images/bg_one.jpg");
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.125rem;
 	line-height: 1.618;
-	margin: 1px;
+	margin: 2rem;
 }
 
 img {
@@ -18,36 +18,35 @@ img {
 }
 
 a {
-	color: #612c2c;
+	color: #864200;
 }
 
 a:hover {
-	color: #ff5733;
+	color: #34918f;
 }
 
 h1 {
 	text-transform: uppercase;
 	text-align: center;
-	border-bottom: 4px double #1167a0;
+	border-bottom: 4px double;
 	padding-bottom: 5px;
 	margin-bottom: 15px;
 }
 
 h2 {
-	color: #000000;
-	border-top: 1px solid #1167a0;
+	border-top: 1px solid;
 	padding-top: 5px;
 	margin-top: 15px;
 	text-align: center; 
 }
 
-h2.main-page-list {
+/*h2.main-page-list {
 	border-bottom: none;
 	padding-bottom: 2px;
 	margin-bottom: 5px;
-}
+}*/
 
-ul{
+ul, ol{
 	list-style: none;
 	padding-left: 0px;
 }
@@ -58,6 +57,7 @@ ul li{
 
 
 ol li{
+	text-align: center;
 	margin-bottom: 10px;
 }
 
@@ -74,9 +74,9 @@ footer {
 }*/
 
 #go-back {
-	border-top: 4px dotted #b9afaf;
-	margin-top: 40px;
-	padding-top: 20px;
+	border-top: 4px double;
+	margin-top: 20px;
+	padding-top: 5px;
 }
 
 .wrapper {
@@ -85,13 +85,23 @@ footer {
 	margin: 0 auto;
 	padding: 5rem;
 	box-sizing: border_box;
-	border-style: solid;
-	border-width: 0.1875rem;
+	border: 0.1875rem solid #d8d4c3;
+	background-color: #cec9b6;
+	background-image: url("images/bg_two.jpg");
+	box-shadow: 0.625rem 0.625rem rgba(58, 89, 87, 0.5);
+}
+
+.image_frame {
+	box-sizing: border-box;
+	padding: 0.75rem;
+	border: 0.1875rem solid #d8d4c3;
+	background-color: #443d3b;
 }
 
 .col_01 {
 	width: 33.3333%;
 	float: left;
+	text-align: center;
 }
 
 .col_02 {
@@ -99,6 +109,11 @@ footer {
 	float: right;
 	padding-left: 4rem;
 	box-sizing: border-box;
+}
+
+.col_02 > :first-child {
+	border-top: none;
+	margin-top: 0;
 }
 
 .col50_01 {
@@ -128,9 +143,9 @@ footer {
 }
 
 .camry-spec {
-	color: #bd804d;
+	color: #1167a0;
 }
 
 .sienna-spec {
-	color: #20ba53;
+	color: #36973C;
 }
