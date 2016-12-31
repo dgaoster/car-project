@@ -35,9 +35,9 @@ h1 {
 
 h2 {
 	color: #000000;
-	border-bottom: 1px solid #1167a0;
-	padding-bottom: 5px;
-	margin-bottom: 15px;
+	border-top: 1px solid #1167a0;
+	padding-top: 5px;
+	margin-top: 15px;
 	text-align: center; 
 }
 
@@ -98,6 +98,18 @@ footer {
 	width: 66.6666%;
 	float: right;
 	padding-left: 4rem;
+	box-sizing: border-box;
+}
+
+.col50_01 {
+	width: 50%;
+	float: left;
+}
+
+.col50_02 {
+	width: 50%;
+	float: right;
+	padding-left: 5rem;
 	box-sizing: border-box;
 }
 
