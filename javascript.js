@@ -140,3 +140,9 @@ function toggleResults(action) {
         results.classList.remove('visible');
     }
 }
+
+
+
+document.getElementById("camryButton").onclick = function() {
+    location.href = "camry.html";
+}
